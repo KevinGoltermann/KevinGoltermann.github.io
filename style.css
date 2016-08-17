@@ -1,22 +1,32 @@
+body {
+  background: #999999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 #navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #003cb3;
 }
 
 #navlist {
 	float: left;
 	display: block;
-	color: #ffffff;
+	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	border-right: 1px solid #bbb
+	border-right: 3px solid #999999;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #navlist:hover {
 	background-color: #111
+}
+
+#welcome {
+	text-align: center;
 }
 
