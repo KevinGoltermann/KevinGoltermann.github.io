@@ -1,3 +1,5 @@
+/*Index Page/Body*/
+
 body {
   background: #999999;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -9,6 +11,7 @@ body {
 	padding: 0;
 	overflow: hidden;
 	background-color: #003cb3;
+	border-radius: 15px;
 }
 
 #navlist {
@@ -17,16 +20,47 @@ body {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
+	text-decoration: underline;
 	border-right: 3px solid #999999;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-#navlist:hover {
-	background-color: #111
+
+#navlist a:link {
+	color: #999999;
 }
 
+#navlist a:visited {
+	color: #999999;
+}
+
+#navlist:hover {
+	background-color: #002266;
+}
+
+#navlist a:active {
+	color: #999999;
+}
+
+
 #welcome {
+	text-align: center;
+}
+
+form {
+	border-style: ridge;
+	border-color: #003cb3;
+	border-radius: 5px;
+}
+
+p {
+	text-align: center;
+}
+
+
+/*Resume Page*/
+
+#resume {
 	text-align: center;
 }
 
