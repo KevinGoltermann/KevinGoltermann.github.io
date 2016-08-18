@@ -116,7 +116,14 @@ button {
 	padding: 20px;
 	right: 200px;
 	top: 115px;
+}
 
+#link a:link {
+	color: #800000;
+}
+
+#link a:visited {
+	color: #00FF7F;
 }
 
 
