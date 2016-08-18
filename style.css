@@ -2,7 +2,7 @@
 
 body {
   background: #999999;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
 }
 
 #navbar {
@@ -124,9 +124,52 @@ button {
 
 #resume {
 	text-align: center;
+	font-size: 24pt;
+	text-decoration: underline;
+	text-shadow: 1.5px 1.5px #003cb3;
+	margin-top: 60px;
+}
+
+#resumepic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*About Me Page*/
+
+#header1 {
+	margin-top: 60px;
+	text-align: center;
+	text-shadow: 1.5px 1.5px #003cb3;
+}
+
+#farrand {
+	float: right;
+	padding: 20px 20px 20px 20px;
+	position: relative;
+	bottom: 130px;
+}
+
+#aboutlist {
+	list-style-type: square;
+	position: relative; 
+	top: 25px;
+	padding-bottom: 25px;
+}
+
+#table {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-family: Arial Black, Gadget, sans-serif;
+}
+
+#copyright {
+	font-size: 8pt;
+	position: relative;
+	top: 40px;
+}
 
 /*Success Page*/
 
