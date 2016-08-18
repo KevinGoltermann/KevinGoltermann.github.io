@@ -175,16 +175,34 @@ button {
 
 #success {
 	text-align: center;
-	text-shadow: 1.5px 1.5px #003cb3;
+	color: white;
+	text-shadow: 1.5px 1.5px #A9A9A9;
 	margin-top: 100px;
 	font-weight: bold;
 }
 
 #success2 {
 	text-align: center;
-	text-shadow: 1.5px 1.5px #003cb3;
+	color: white;
+	text-shadow: 1.5px 1.5px #A9A9A9;
 	margin-top: 25px;
 	margin-bottom: 100px
+}
+
+#successbody {
+	background-image: url(images/success_background.jpg);
+}
+
+#resumereturn {
+	color: white;
+}
+
+#resumereturn a:link {
+	color: #999999;
+}
+
+#resumereturn a:visited {
+	color: #999999;
 }
 
 
