@@ -16,6 +16,7 @@ body {
     top: 0px;
     width: 98.5%;
     border: 1px solid black;
+    z-index: +1;
 }
 
 #navlist {
@@ -95,6 +96,25 @@ button {
 	cursor: pointer;
 	font-size: 12px;
 	border-radius: 4px;
+}
+
+#profile {
+	border-radius: 20px;
+	width: 40%;
+	height: 40%;
+	position: relative;
+	z-index: -1;
+	left: 50px;
+}
+
+#link {
+	position: relative;
+	float: right;
+	width: 275px;
+	padding: 20px;
+	right: 200px;
+	top: 115px;
+
 }
 
 
