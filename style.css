@@ -1,7 +1,7 @@
 /*Index Page/Body*/
 
 body {
-  background: #999999;
+  background: linear-gradient(#666666, #bfbfbf);
   font-family: Futura,Trebuchet MS,Arial,sans-serif; 
 }
 
@@ -94,7 +94,10 @@ button {
 	font-size: 12px;
 	border-radius: 4px;
 	position: relative;
-	left: 260px;
+}
+
+.form {
+	text-align: center;
 }
 
 #profile {
@@ -118,14 +121,6 @@ button {
 	padding: 20px;
 	right: 200px;
 	top: 115px;
-}
-
-ink a:link {
-	color: #800000;
-}
-
-ink a:visited {
-	color: #00FF7F;
 }
 
 
