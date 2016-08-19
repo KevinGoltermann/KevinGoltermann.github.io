@@ -2,13 +2,12 @@
 
 body {
   background: #999999;
-  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
 }
 
-#navbar {
+.navbar {
 	list-style-type: none;
 	margin: -2px;
-	padding: 0px;
 	overflow: hidden;
 	background-color: #003cb3;
 	border-radius: 8px;
@@ -16,42 +15,40 @@ body {
     top: 0px;
     width: 98.5%;
     border: 1px solid black;
-    z-index: +1;
+    z-index: 1;
 }
 
-#navlist {
+.navbar ul {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navitems {
 	float: left;
 	display: block;
-	color: white;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	border-right: 1.5px solid #999999;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: ‘Arial Black’, Gadget, sans-serif;
+	font-size: 14pt;
 }
 
-#navlist a {
+.navitems a,
+.navitems a:visited,
+.navitems a:active {
+    display: block;
 	text-decoration: none;
+    padding: 10px;
+    color: #999999;
+    transition: background-color 300ms;
 }
 
-
-#navlist a:link {
-	color: #999999;
+.navitems a:hover {
+	  background-color: #002266;
 }
 
-#navlist a:visited {
-	color: #999999;
-}
-
-#navlist:hover {
-	background-color: #002266;
-}
-
-#navlist a:active {
-	color: #999999;
-}
-
-#welcome {
+.heading {
 	text-align: center;
 	text-shadow: 1.5px 1.5px #003cb3;
 	margin-top: 60px
@@ -109,6 +106,11 @@ button {
 	left: 50px;
 }
 
+.link:link,
+.link:visited {
+	color: #800000;
+}
+
 #link {
 	position: relative;
 	float: right;
@@ -118,11 +120,11 @@ button {
 	top: 115px;
 }
 
-#link a:link {
+ink a:link {
 	color: #800000;
 }
 
-#link a:visited {
+ink a:visited {
 	color: #00FF7F;
 }
 
@@ -190,36 +192,11 @@ th {
 
 /*Success Page*/
 
-#success {
+.success {
 	text-align: center;
 	color: white;
 	text-shadow: 1.5px 1.5px #A9A9A9;
 	margin-top: 100px;
 	font-weight: bold;
-}
-
-#success2 {
-	text-align: center;
-	color: white;
-	text-shadow: 1.5px 1.5px #A9A9A9;
-	margin-top: 25px;
-	margin-bottom: 100px
-}
-
-#successbody {
 	background-image: url(images/success_background.jpg);
 }
-
-#resumereturn {
-	color: white;
-}
-
-#resumereturn a:link {
-	color: #999999;
-}
-
-#resumereturn a:visited {
-	color: #999999;
-}
-
-
