@@ -195,3 +195,11 @@ th {
 	font-weight: bold;
 	background-image: url(images/success_background.jpg);
 }
+
+
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 10pt;
+  }
+}
